@@ -3,5 +3,16 @@
     <TargetFramework>net8.0</TargetFramework>
     <TargetFramework Condition=" '$(GodotTargetPlatform)' == 'android' ">net9.0</TargetFramework>
     <EnableDynamicLoading>true</EnableDynamicLoading>
+    <RootNamespace>RanchSim.Godot</RootNamespace>
+    <Nullable>enable</Nullable>
   </PropertyGroup>
+
+  <!-- Este proyecto es la capa Godot (adaptadores + composition root).
+       Domain/Application y los tests son proyectos propios: se excluyen del globbing de Godot. -->
+  <ItemGroup>
+    <Compile Remove="src/RanchSim.Domain/**;src/RanchSim.Application/**;tests/**" />
+    <None Remove="src/RanchSim.Domain/**;src/RanchSim.Application/**;tests/**" />
+    <ProjectReference Include="src/RanchSim.Domain/RanchSim.Domain.csproj" />
+    <ProjectReference Include="src/RanchSim.Application/RanchSim.Application.csproj" />
+  </ItemGroup>
 </Project>

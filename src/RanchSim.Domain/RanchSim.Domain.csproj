@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Dominio puro: NO puede referenciar Godot ni ningún otro proyecto. -->
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>RanchSim.Domain</RootNamespace>
+  </PropertyGroup>
+</Project>
