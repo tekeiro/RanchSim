@@ -9,5 +9,5 @@
         "**/Thumbs.db": true,
         "**/*.uid": true,
         "**/*.import": true,
-    }
+    },
 }
