@@ -1,0 +1,13 @@
+{
+    "godotTools.editorPath.godot4": "godot-mono",
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/.jj": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/*.uid": true,
+        "**/*.import": true,
+    }
+}
