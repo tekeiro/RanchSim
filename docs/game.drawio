@@ -1,0 +1,86 @@
+<mxfile>
+  <diagram id="aONHekYZKq8yW5N7irCW" name="Page-1">
+    <mxGraphModel dx="1458" dy="612" grid="1" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hC7YDitRK0aR4jZD1lz4-25" edge="1" parent="1" source="hC7YDitRK0aR4jZD1lz4-1" style="edgeStyle=none;html=1;" target="hC7YDitRK0aR4jZD1lz4-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="355" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hC7YDitRK0aR4jZD1lz4-26" connectable="0" parent="hC7YDitRK0aR4jZD1lz4-25" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;" value="seed" vertex="1">
+          <mxGeometry relative="1" x="0.0287" y="-1" as="geometry">
+            <mxPoint x="1" y="12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hC7YDitRK0aR4jZD1lz4-1" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="CropData" vertex="1">
+          <mxGeometry height="190" width="240" x="45" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="hC7YDitRK0aR4jZD1lz4-14" parent="hC7YDitRK0aR4jZD1lz4-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ Name : String" vertex="1">
+          <mxGeometry height="26" width="240" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hC7YDitRK0aR4jZD1lz4-13" parent="hC7YDitRK0aR4jZD1lz4-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ BasePriceToSell : Integer" vertex="1">
+          <mxGeometry height="26" width="240" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="hC7YDitRK0aR4jZD1lz4-29" parent="hC7YDitRK0aR4jZD1lz4-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ DaysToMature : Integer" vertex="1">
+          <mxGeometry height="26" width="240" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="hC7YDitRK0aR4jZD1lz4-15" parent="hC7YDitRK0aR4jZD1lz4-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ CanPlantBySeason : {Season: Boolean}" vertex="1">
+          <mxGeometry height="26" width="240" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="hC7YDitRK0aR4jZD1lz4-2" parent="hC7YDitRK0aR4jZD1lz4-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ TileCoordsByStage : Array&amp;lt;Vector2I&amp;gt;" vertex="1">
+          <mxGeometry height="26" width="240" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="hC7YDitRK0aR4jZD1lz4-3" parent="hC7YDitRK0aR4jZD1lz4-1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;labelPerimeter=1;" value="" vertex="1">
+          <mxGeometry height="8" width="240" y="156" as="geometry" />
+        </mxCell>
+        <mxCell id="hC7YDitRK0aR4jZD1lz4-4" parent="hC7YDitRK0aR4jZD1lz4-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ method(type): type" vertex="1">
+          <mxGeometry height="26" width="240" y="164" as="geometry" />
+        </mxCell>
+        <mxCell id="hC7YDitRK0aR4jZD1lz4-23" edge="1" parent="1" source="hC7YDitRK0aR4jZD1lz4-16" style="edgeStyle=none;html=1;" target="hC7YDitRK0aR4jZD1lz4-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="345" y="300" />
+              <mxPoint x="275" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hC7YDitRK0aR4jZD1lz4-24" connectable="0" parent="hC7YDitRK0aR4jZD1lz4-23" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;" value="crop" vertex="1">
+          <mxGeometry relative="1" x="0.1935" y="-2" as="geometry">
+            <mxPoint x="23" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hC7YDitRK0aR4jZD1lz4-16" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="SeedData" vertex="1">
+          <mxGeometry height="164" width="300" x="505" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="hC7YDitRK0aR4jZD1lz4-17" parent="hC7YDitRK0aR4jZD1lz4-16" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ Name : String" vertex="1">
+          <mxGeometry height="26" width="300" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hC7YDitRK0aR4jZD1lz4-18" parent="hC7YDitRK0aR4jZD1lz4-16" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ PriceBySeason : {Season: Integer}" vertex="1">
+          <mxGeometry height="26" width="300" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="hC7YDitRK0aR4jZD1lz4-20" parent="hC7YDitRK0aR4jZD1lz4-16" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ AvailableBySeason : {Season: Boolean}" vertex="1">
+          <mxGeometry height="26" width="300" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="hC7YDitRK0aR4jZD1lz4-19" parent="hC7YDitRK0aR4jZD1lz4-16" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ TileCoords : Vector2I" vertex="1">
+          <mxGeometry height="26" width="300" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="hC7YDitRK0aR4jZD1lz4-21" parent="hC7YDitRK0aR4jZD1lz4-16" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;labelPerimeter=1;" value="" vertex="1">
+          <mxGeometry height="8" width="300" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="hC7YDitRK0aR4jZD1lz4-22" parent="hC7YDitRK0aR4jZD1lz4-16" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ method(type): type" vertex="1">
+          <mxGeometry height="26" width="300" y="138" as="geometry" />
+        </mxCell>
+        <mxCell id="hC7YDitRK0aR4jZD1lz4-27" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Enum&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Season&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ SPRING&lt;br&gt;+ SUMMER&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ AUTUMN&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ WINTER&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="120" width="130" x="20" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hC7YDitRK0aR4jZD1lz4-28" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Enum&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;ThreatType&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ PESTS&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ WEED&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ FUNGUS&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="110" width="120" x="180" y="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
